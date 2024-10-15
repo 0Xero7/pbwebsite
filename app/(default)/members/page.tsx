@@ -1,8 +1,5 @@
 import Members from "@/components/Members"
 
-export const runtime = "edge";
-
-
 export const metadata = {
     title: 'Members',
     description: 'Members page',

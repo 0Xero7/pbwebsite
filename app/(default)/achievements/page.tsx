@@ -1,8 +1,5 @@
 "use client";
 
-export const runtime = "edge";
-
-
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { onAuthStateChanged } from "firebase/auth";
