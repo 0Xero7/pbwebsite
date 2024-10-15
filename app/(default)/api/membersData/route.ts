@@ -11,6 +11,9 @@ import {
 import { ref, uploadBytes, getDownloadURL, deleteObject } from 'firebase/storage';
 
 
+
+export const runtime = "edge";
+
 export async function GET() {
     try {
 

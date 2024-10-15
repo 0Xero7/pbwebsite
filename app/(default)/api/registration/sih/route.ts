@@ -3,6 +3,9 @@ import { sihValidate } from "@/lib/server/utils";
 import { addDoc, collection, getDocs, query, where } from "firebase/firestore";
 import { NextResponse } from "next/server";
 
+
+export const runtime = "edge";
+
 // Add a new registration
 export async function POST(request: Request) {
   const formData = await request.json();

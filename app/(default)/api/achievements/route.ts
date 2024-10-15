@@ -14,6 +14,9 @@ import {
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { NextRequest, NextResponse } from "next/server";
 
+
+export const runtime = "edge";
+
 export async function POST(request: Request) {
   try {
     const formData = await request.formData();
