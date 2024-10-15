@@ -3,6 +3,8 @@ export const metadata = {
   description: "Landing page",
 };
 
+export const runtime = "edge";
+
 import Hero from "@/components/hero";
 import Domains from "@/components/domains";
 import "../css/additional-styles/landing.css";

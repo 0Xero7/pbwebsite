@@ -1,4 +1,7 @@
 "use client";
+
+export const runtime = "edge";
+
 import RecruitmentForm from "@/components/forms/recruitmentForm";
 import DotPattern from "@/components/magicui/dot-pattern";
 import "../../css/additional-styles/form.css";

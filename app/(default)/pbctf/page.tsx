@@ -1,4 +1,7 @@
 "use client";
+
+export const runtime = "edge";
+
 import PBCTFForm from "@/components/forms/pbctfForm";
 import DotPattern from "@/components/magicui/dot-pattern";
 import { cn } from "@/lib/server/utils";

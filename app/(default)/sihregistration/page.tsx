@@ -1,4 +1,7 @@
 'use client'
+
+export const runtime = "edge";
+
 import SIHRegistrationForm from "@/components/forms/sihForm";
 import { FormProvider } from "@/components/forms/formContext";
 import DotPattern from "@/components/magicui/dot-pattern";

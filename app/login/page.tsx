@@ -1,4 +1,7 @@
 "use client";
+
+export const runtime = "edge";
+
 import React, { useEffect, useState } from 'react';
 import Login from '../../components/Login';
 import Signup from '../../components/Signup';
